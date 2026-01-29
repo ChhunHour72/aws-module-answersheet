@@ -62,40 +62,83 @@ This repository serves as a comprehensive answer sheet and reference guide for A
 
 ## 📚 Module Structure
 
+Based on **AWS Academy Cloud Foundations** curriculum:
+
 ```
 AWS/
-├── 01-Foundation/
-│   ├── aws-global-infrastructure.md
-│   ├── iam-basics.md
-│   └── billing-and-pricing.md
-├── 02-Compute/
-│   ├── ec2-essentials.md
-│   ├── lambda-serverless.md
-│   └── container-services.md
-├── 03-Storage/
-│   ├── s3-deep-dive.md
+├── Module-01-Cloud-Concepts-Overview/
+│   ├── introduction-to-cloud-computing.md
+│   ├── cloud-computing-models.md
+│   ├── cloud-deployment-models.md
+│   └── six-advantages-of-cloud.md
+├── Module-02-Cloud-Economics-and-Billing/
+│   ├── pricing-fundamentals.md
+│   ├── total-cost-of-ownership.md
+│   ├── aws-organizations.md
+│   ├── aws-billing-and-cost-management.md
+│   └── technical-support-plans.md
+├── Module-03-AWS-Global-Infrastructure/
+│   ├── aws-global-infrastructure-overview.md
+│   ├── regions-and-availability-zones.md
+│   ├── edge-locations-and-cloudfront.md
+│   └── selecting-regions.md
+├── Module-04-AWS-Cloud-Security/
+│   ├── shared-responsibility-model.md
+│   ├── iam-users-groups-roles.md
+│   ├── securing-accounts.md
+│   ├── securing-data.md
+│   ├── compliance-programs.md
+│   └── security-services.md
+├── Module-05-Networking-and-Content-Delivery/
+│   ├── vpc-fundamentals.md
+│   ├── vpc-networking.md
+│   ├── vpc-security.md
+│   ├── route53.md
+│   └── cloudfront.md
+├── Module-06-Compute/
+│   ├── ec2-overview.md
+│   ├── ec2-instance-types.md
+│   ├── ec2-pricing-options.md
+│   ├── elastic-load-balancing.md
+│   ├── auto-scaling.md
+│   ├── lambda.md
+│   └── elastic-beanstalk.md
+├── Module-07-Storage/
+│   ├── s3-overview.md
+│   ├── s3-storage-classes.md
 │   ├── ebs-volumes.md
+│   ├── efs-file-system.md
+│   ├── glacier.md
 │   └── storage-comparison.md
-├── 04-Database/
-│   ├── rds-management.md
-│   ├── dynamodb-nosql.md
-│   └── database-selection.md
-├── 05-Networking/
-│   ├── vpc-design.md
-│   ├── route53-dns.md
-│   └── load-balancing.md
-├── 06-Security/
-│   ├── security-best-practices.md
-│   ├── encryption-kms.md
-│   └── compliance.md
-├── 07-Architecture/
+├── Module-08-Databases/
+│   ├── rds-overview.md
+│   ├── dynamodb.md
+│   ├── aurora.md
+│   ├── redshift.md
+│   ├── elasticache.md
+│   └── database-migration-service.md
+├── Module-09-Cloud-Architecture/
 │   ├── well-architected-framework.md
-│   ├── reference-architectures.md
-│   └── design-patterns.md
-└── 08-Practice-Labs/
-    ├── lab-01-hosting-static-website.md
-    ├── lab-02-auto-scaling-application.md
-    └── lab-03-serverless-api.md
+│   ├── operational-excellence.md
+│   ├── security-pillar.md
+│   ├── reliability-pillar.md
+│   ├── performance-efficiency.md
+│   ├── cost-optimization.md
+│   └── reference-architectures.md
+├── Module-10-Auto-Scaling-and-Monitoring/
+│   ├── elastic-load-balancing-deep-dive.md
+│   ├── cloudwatch-monitoring.md
+│   ├── cloudwatch-logs-and-alarms.md
+│   ├── auto-scaling-groups.md
+│   └── scaling-policies.md
+└── Labs/
+    ├── lab-01-introduction-to-iam.md
+    ├── lab-02-build-vpc-and-launch-web-server.md
+    ├── lab-03-introduction-to-ec2.md
+    ├── lab-04-working-with-ebs.md
+    ├── lab-05-build-database-server.md
+    ├── lab-06-scale-and-load-balance-architecture.md
+    └── capstone-project.md
 ```
 
 ## 🎓 Learning Path
@@ -224,13 +267,6 @@ Check the `interview-questions/` folder for:
 - Delete resources after practice sessions
 - Review the Free Tier limitations
 - Use tags for cost tracking
-
-## 📧 Contact & Support
-
-- Create an [Issue](../../issues) for questions or suggestions
-- Join our [Discussions](../../discussions) for community support
-- Connect on LinkedIn: [Your LinkedIn Profile]
-- Email: your.email@example.com
 
 ## 📄 License
 
