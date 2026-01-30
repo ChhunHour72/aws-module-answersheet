@@ -119,4 +119,3 @@ The CAF helps organizations design their cloud adoption path using **6 core pers
 
 ---
 
-*Ready to dive deeper? Move on to Module 2: Cloud Economics & Billing! 💪*
