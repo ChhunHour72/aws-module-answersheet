@@ -66,15 +66,6 @@ Learn Amazon Web Services - a comprehensive resource for Cloud Engineers.
 - [AWS Skill Builder (Free)](https://skillbuilder.aws/)
 - [AWS re:Post](https://repost.aws/)
 
-## Tips for Success
-
-✓ Build real projects - don't just read
-✓ Use the Free Tier wisely
-✓ Delete unused resources to save costs
-✓ Take hands-on labs
-✓ Join study groups
-✓ Keep learning - AWS updates constantly
-
 ## Cost Safety
 
 - Set billing alerts in CloudWatch
